@@ -2,7 +2,7 @@ Name:           perl-Devel-StackTrace
 Summary:        Perl module implementing stack trace and stack trace frame objects
 Version:        1.30
 Epoch:          1
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        Artistic 2.0
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/Devel-StackTrace/
@@ -73,6 +73,9 @@ make test %{?with_release_tests:RELEASE_TESTING=1}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.30-2
+- Mass rebuild 2013-12-27
+
 * Thu Nov 22 2012 Ralf Corsépius <corsepiu@fedoraproject.org> - 1:1.30-1
 - Upstream update.
 - Reflect new BR:'s.
